@@ -1,5 +1,5 @@
-#ifndef SRC_HUFFMAN_INTERFACE_H_
-#define SRC_HUFFMAN_INTERFACE_H_
+#ifndef SRC_INTERFACE_H_
+#define SRC_INTERFACE_H_
 
 #include "archiver.h"
 

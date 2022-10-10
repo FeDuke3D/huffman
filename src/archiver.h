@@ -1,5 +1,5 @@
-#ifndef SRC_HUFFMAN_ARCHIVER_H_
-#define SRC_HUFFMAN_ARCHIVER_H_
+#ifndef SRC_ARCHIVER_H_
+#define SRC_ARCHIVER_H_
 
 #include "huffman_tree.h"
 

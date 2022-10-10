@@ -1,5 +1,5 @@
-#ifndef SRC_HUFFMAN_HUFFMAN_TREE_H_
-#define SRC_HUFFMAN_HUFFMAN_TREE_H_
+#ifndef SRC_HUFFMAN_TREE_H_
+#define SRC_HUFFMAN_TREE_H_
 
 #include <map>
 #include <queue>
