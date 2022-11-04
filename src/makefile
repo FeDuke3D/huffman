@@ -19,6 +19,13 @@ test : test.o archiver.o huffman_tree.o
 	$(CC) $^ -o $@ $(GTEST) $(LFLAGS)
 	./test
 
+mem : test
+ifeq ($(OS), Linux)
+	valgrind --tool=memcheck --leak-check=yes --track-origins=yes ./test
+else
+	CK_FORK=no leaks --atExit -- ./test
+endif
+
 main.o : main.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
